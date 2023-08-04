@@ -1,0 +1,417 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* NAVBAR */
+
+#navbar {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    background-color: #22262F;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-items ul,
+a {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    margin: 10px;
+}
+
+
+#navbar .toggle_btn {
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+/* DROP_MENU */
+
+.drop_menu {
+    display: none;
+    position: absolute;
+    right: 1rem;
+    top: 115px;
+    height: 0;
+    width: 300px;
+    background: #22262fa2;
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.drop_menu.open {
+    height: auto;
+}
+
+.drop_menu li {
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.drop_menu .action_button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* HEADER */
+
+header {
+    width: 100%;
+    height: 80vh;
+    background-image: url(/assets/SAPIENS\ -\ Recepção\ Única.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ABOUT */
+
+#about {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.aboutText {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.aboutText p {
+    padding: 15px;
+    margin: 10px;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.aboutImg {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.aboutImg img {
+    max-width: 600px;
+    width: 100%;
+}
+
+/* PARALLAX */
+
+#parallax {
+    background-image: url(/assets/entrada.jfif);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+/* CARDS SERVICES */
+
+#services {
+    
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    background: linear-gradient(45deg, #612202, #17b250);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    padding: 20px;
+    margin: 15px;
+    background-color: #fff;
+    border-top: solid #B53000 5px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.card:hover {
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
+}
+
+.card:hover::after {
+    opacity: 1;
+}
+
+.card :after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0CF;
+    opacity: 0;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.3);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    z-index: -1;
+}
+
+.card i {
+    margin-bottom: 10px;
+}
+
+/* LOCAL */
+/*  */
+/*  */
+/*  */
+/*  */
+
+/* CONTACT */
+
+#contact {
+    display: flex;
+    height: 300px;
+
+
+    background: linear-gradient(90deg, #3B4552, #B53000, #3B4552, #17b250);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.ct-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ct-container h2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-align: left;
+    color: #fff;
+}
+
+.ct-text {
+    margin: auto;
+}
+
+.redes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whats i:hover {
+    transform: scale(1.1, 1.1);
+    transition: 0.5s;
+    color: #25d366;
+}
+
+.insta i:hover {
+    transform: scale(1.1, 1.1);
+    transition: 0.5s;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    /* Also define standard property for compatibility */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.redes i {
+    font-size: 5rem;
+    color: #fff;
+    margin: 30px;
+}
+
+/* FOOTER */
+
+
+footer {
+    background-color: #22262F;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+}
+
+.logo-footer {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.logo-footer img {
+    max-width: 300px;
+    width: 100%;
+}
+
+.footer-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.inst ul {
+    list-style: none;
+}
+
+
+.atend ul {
+    list-style: none;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 900px) {
+
+
+    #navbar .links,
+    #navbar .action_button {
+        display: none;
+    }
+
+
+    #navbar .toggle_btn {
+        display: block;
+    }
+
+    .drop_menu {
+        display: block;
+    }
+
+    /* ABOUT */
+
+    #about {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        padding: 20px;
+    }
+
+    .aboutText p {
+        padding: 15px;
+        margin: 10px;
+        font-size: 0.8rem;
+        text-align: left;
+    }
+
+    /* CONTACT */
+
+    #contact {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+        height: auto;
+    }
+
+    .ct-container h2 {
+        font-size: 1.5rem;
+        font-weight: 400;
+        text-align: left;
+        color: #fff;
+    }
+
+
+    /* CARDS */
+
+    .card {
+        transition: none;
+    }
+
+    .card:hover {
+        transform: none;
+        cursor: pointer;
+    }
+    
+    .card:hover::after {
+        opacity: 1;
+    }
+    
+    .card :after {
+        transition: none;
+    }
+
+    /* FOOTER */
+
+
+    footer {
+        background-color: #22262F;
+        color: #fff;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .logo-footer {
+        width: 100%;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .footer-container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .inst {
+        margin: 10px;
+    }
+
+    .atend {
+        margin: 10px;
+    }
+
+
+}
