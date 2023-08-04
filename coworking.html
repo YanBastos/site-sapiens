@@ -12,6 +12,7 @@
     <link rel="icon" type="image/png" href="/assets/Logo Sapiens.jpg" />
 
     <!-- LINKS -->
+    <link rel="stylesheet" href="/fixparallax.css">
     <link rel="stylesheet" href="coworking-style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
@@ -212,6 +213,14 @@
 
 
     <script src="/coworking.js"></script>
+
+    <script type="text/javascript">
+
+        if (navigator.userAgent.match(/(iPad|iPhone|iPod)/gi)) {
+            document.write("<link rel=\"stylesheet\" href=\"fixparallax.css\" />");
+        }
+
+    </script>
 
 
 </body>
