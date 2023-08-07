@@ -386,13 +386,7 @@ footer {
         cursor: pointer;
     }
 
-    .card:hover::after {
-        opacity: 1;
-    }
-
-    .card :after {
-        transition: none;
-    }
+    
 
     /* FOOTER */
 
