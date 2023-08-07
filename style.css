@@ -116,11 +116,12 @@ header {
 
 /* PARALLAX */
 
+
 #parallax {
     background-image: url(/assets/entrada.jfif);
     min-height: 500px;
+    width: 100%;
     background-attachment: fixed;
-    background-position: center;
     background-repeat: repeat;
     background-size: cover;
 }
@@ -128,7 +129,7 @@ header {
 /* CARDS SERVICES */
 
 #services {
-    
+
     width: 100%;
     height: auto;
     padding: 30px;
@@ -362,6 +363,17 @@ footer {
         color: #fff;
     }
 
+    /* PARALLAX */
+
+
+    #parallax {
+        background-image: url(/assets/entrada.jfif);
+        min-height: 500px;
+        width: 100%;
+        background-attachment:local;
+        background-repeat: repeat;
+        background-size: cover;
+    }
 
     /* CARDS */
 
@@ -373,11 +385,11 @@ footer {
         transform: none;
         cursor: pointer;
     }
-    
+
     .card:hover::after {
         opacity: 1;
     }
-    
+
     .card :after {
         transition: none;
     }
