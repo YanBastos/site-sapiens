@@ -73,3 +73,27 @@ nav a {
     max-width: 363px;
     margin: 10px;
 }
+
+/* CAROUSEL */
+
+i {
+    top: 50%;
+    height: 46px;
+    width: 46px;
+    position: absolute;
+    text-align: center;
+    line-height: 46px;
+    background: #5e6167;
+    color: #000;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+
+i:first-child {
+    left: -23px;
+    display: none;
+}
+i:last-child {
+    right: -23px;
+}
+
