@@ -137,6 +137,26 @@ main h3 {
     color: #fff;
 }
 
+.more {
+    text-align: center;
+    margin: 20px;
+}
+
+.more-photos {
+    padding: 10px;
+    height: 100px;  
+    background-color: #e2e2e2;
+    border-radius: 50px;
+    color: #000000;
+    text-decoration: none;
+}
+.more-photos:hover {
+    background-color: #17b250;
+    border: none;
+    color: #fff;
+    transition: 1s;
+}
+
 /* PRICES */
 
 #prices {
@@ -290,7 +310,7 @@ footer {
     justify-content: space-around;
 }
 
-.footer-container a{
+.footer-container a {
     text-decoration: none;
     color: #fff;
 }
