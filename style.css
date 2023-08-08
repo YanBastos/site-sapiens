@@ -158,13 +158,30 @@ header {
     justify-content: center;
 }
 
+.headline {
+    text-align: center;
+    color: #fff;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
+.card p {
+    padding: 15px;
+}
+
+.card img{
+    max-width: 200px;
+}
+
 .card {
-    width: 300px;
+    max-width: 350px;
+    width: 100%;
     padding: 20px;
     margin: 15px;
     background-color: #fff;
     border-top: solid #B53000 5px;
-
+    align-items: center;
     display: flex;
     flex-direction: column;
     text-align: center;
