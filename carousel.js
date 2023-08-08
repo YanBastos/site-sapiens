@@ -1,6 +1,6 @@
-const carousel = document.querySelector("carousel");
-firstGroup = carousel.querySelector("group")[0];
-arrowIcons = document.querySelector("i");
+const carousel = document.querySelector(".carousel");
+firstGroup = carousel.querySelector(".group")[0];
+arrowIcons = document.querySelector(".group i");
 
 
 let isDragStart = false, prevPageX, prevScrollLeft;
@@ -20,3 +20,28 @@ arrowIcons.forEach(icon => {
         setTimeout(() => showHideIcons(), 60)
     });
 });
+
+const DragStart = (e) => {
+    isDragStart = true;
+    prevPageX = e.PageX;
+    prevScrollLeft = carousel.scrollLeft;
+}
+
+const dragging = (e) => {
+    if(!isDragStart) return;
+    e.preventDefault();
+    carousel.classList.add("dragging");
+    let positionDiff = e.PageX - prevPageX;
+    carousel.scrollLeft = prevScrollLeft - positionDiff;
+    showHideIcons();
+}
+
+const dragStop = () => {
+    isDragStart = false;
+    carousel.classList.remove("dragging");
+}
+
+carousel.addEventListener('mousedown', DragStart);
+carousel.addEventListener('mousemove', dragging);
+carousel.addEventListener('mouseup', dragStop);
+carousel.addEventListener('mouseleave', dragStop);
