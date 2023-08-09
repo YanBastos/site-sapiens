@@ -57,6 +57,10 @@ nav a {
     margin: 20px;
 }
 
+.photos {
+    width: 100%;
+}
+
 .photos img {
     margin: 10px;
     max-width: 320px;
@@ -74,5 +78,36 @@ nav a {
     #esc2 .content {
         display: flex;
         flex-direction: column-reverse;
+    }
+
+    .text {
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .text h3 {
+        text-align: center;
+    }
+
+    .text p {
+        padding: 20px;
+        font-size: .8rem;
+    }
+
+    /* COWORKING */
+
+    .box {
+        width: 100%;
+        margin: auto;
+    }
+
+    .photos {
+        text-align: center;
+    }
+
+    .photos img {
+        max-width: 130px;
+        width: 100%;
+        margin: auto;
     }
 }
