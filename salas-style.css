@@ -65,13 +65,13 @@ nav a {
 
 
 @media screen and (max-width: 700px) {
-    .esc1 .content {
+    #esc1 .content {
         display: flex;
         flex-direction: column;
 
     }
 
-    .esc2 .content {
+    #esc2 .content {
         display: flex;
         flex-direction: column-reverse;
     }
