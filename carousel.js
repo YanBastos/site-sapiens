@@ -1,5 +1,5 @@
 const carousel = document.querySelector(".carousel");
-firstGroup = carousel.querySelector(".group")[0];
+firstGroup = carousel.querySelector(".box")[0];
 arrowIcons = document.querySelector(".group i");
 
 

@@ -31,5 +31,35 @@ nav a {
     width: 100%;
 }
 
-/* ESCRITÓRIO 1 */
+/* TEXTO */
 
+.content {
+    display: flex;
+}
+
+.text {
+    width:100% ;
+    margin: 20px;
+}
+
+.text h3 {
+    text-align: center;
+}
+
+.text p {
+    padding: 40px;
+}
+
+/* COWORKING */
+
+.box {
+    width: 100%;
+    
+    margin: 20px;
+}
+
+.photos img {
+    margin: 10px;
+    max-width: 320px;
+    width: 100%;
+}
