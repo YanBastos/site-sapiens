@@ -54,7 +54,6 @@ nav a {
 
 .box {
     width: 100%;
-    
     margin: 20px;
 }
 
@@ -62,4 +61,12 @@ nav a {
     margin: 10px;
     max-width: 320px;
     width: 100%;
+}
+
+
+@media screen and (max-width: 700px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
 }
