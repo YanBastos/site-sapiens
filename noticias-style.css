@@ -7,6 +7,34 @@
     color: #000;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+/* NAV */
+
+nav {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    background-color: #22262F;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo img {
+    max-width: 150px;
+    width: 100%;
+}
+
+/* FEED  */
+
 .feed-item {
     border: 1px solid #ccc;
     padding: 10px;
