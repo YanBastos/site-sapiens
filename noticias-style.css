@@ -42,7 +42,7 @@ nav a {
     max-width: 400px;
 }
 
-.feed-item:hover{
+.feed-item:hover {
     transition: 1s;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.488) 0%, rgb(255, 255, 255) 100%);
 }
@@ -52,4 +52,115 @@ nav a {
     flex-wrap: wrap;
     margin: auto;
     justify-content: center;
+}
+
+/* Botoes */
+
+#show-more-btn,
+#show-less-btn {
+    border: solid #000;
+    border-radius: 50px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: transparent;
+    width: 200px;
+    cursor: pointer;
+}
+
+/* FOOTER */
+
+
+footer {
+    background-color: #22262F;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+}
+
+.logo-footer {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.logo-footer img {
+    max-width: 300px;
+    width: 100%;
+}
+
+.footer-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-container a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.inst ul {
+    list-style: none;
+    margin: 10px;
+}
+
+
+.atend ul {
+    list-style: none;
+}
+
+.inst ul li {
+    list-style: none;
+    margin-top: 10px;
+}
+
+
+.atend ul li {
+    list-style: none;
+    margin-top: 10px;
+}
+
+h3 {
+    color: #fff;
+}
+
+@media screen and (max-width: 900px) {
+
+    footer {
+        background-color: #22262F;
+        color: #fff;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    footer {
+        background-color: #22262F;
+        color: #fff;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .logo-footer {
+        width: 100%;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .footer-container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .inst {
+        margin: 10px;
+    }
+
+    .atend {
+        margin: 10px;
+    }
+
 }

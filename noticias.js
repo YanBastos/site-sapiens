@@ -35,3 +35,50 @@ fetch(feedUrl)
     .catch(error => {
         console.error("Erro ao carregar o feed:", error);
     });
+
+
+// ShowMore Button
+
+document.addEventListener("DOMContentLoaded", function () {
+    const showMoreBtn = document.getElementById("show-more-btn");
+    const showLessBtn = document.getElementById("show-less-btn");
+    const newsContainer = document.getElementById("feed");
+    const news = newsContainer.querySelectorAll(".feed-item");
+
+    const numNewsToShow = 3; // define  número de noticias que serão vistas
+
+    let visibleNews = numNewsToShow;
+
+    // Esconde as noticias
+    for (let i = numNewsToShow; i < news.length; i++) {
+        news[i].style.display = "none";
+    }
+
+    function updateVisibility() {
+        for (let i = 0; i < news.length; i++) {
+            if (i < visibleNews) {
+                news[i].style.display = "block";
+            } else {
+                news[i].style.display = "none";
+            }
+        }
+
+        showMoreBtn.style.display = visibleNews < news.length ? "block" : "none";
+        showLessBtn.style.display = visibleNews > numNewsToShow ? "block" : "none";
+    }
+
+    showMoreBtn.addEventListener("click", function () {
+        visibleNews += numNewsToShow;
+        updateVisibility();
+    });
+
+    showLessBtn.addEventListener("click", function () {
+        visibleNews -= numNewsToShow;
+        updateVisibility();
+    });
+
+    // Exibir ShowLess somente se houver mais imagens que o limite
+    showLessBtn.style.display = visibleNews > numNewsToShow ? "block" : "none";
+});
+
+

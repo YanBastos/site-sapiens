@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const showLessBtn = document.getElementById("show-less-btn");
     const imageContainer = document.querySelector(".image-container");
     const images = imageContainer.querySelectorAll("img");
+    
     const numImagesToShow = 3; // Define o número de imagens a serem mostradas a cada clique no botão.
 
     let visibleImages = numImagesToShow;
