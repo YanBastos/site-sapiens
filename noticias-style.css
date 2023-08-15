@@ -35,7 +35,6 @@ nav a {
 
 /* NOTICIAS NICHOS */
 
-
 .nch {
     display: flex;
     flex-wrap: wrap;
@@ -46,15 +45,19 @@ nav a {
 }
 
 .nch h2 {
-    color: #fff;
+    color: #000;
     text-align: center;
     margin: auto;
-    width: 100%;
-    height: 100%;
 }
 
-.adv:hover, .per:hover{
+.nch a {
+    padding: 70px;
+}
 
+.adv:hover,
+.per:hover {
+    transition: 1s;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.488) 0%, rgb(255, 255, 255) 100%);
 }
 
 
