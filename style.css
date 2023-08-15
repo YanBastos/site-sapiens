@@ -19,6 +19,9 @@ html {
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+    list-style-type: none;
+    overflow: hidden;
 }
 
 .navbar-items ul,
@@ -37,6 +40,7 @@ a {
     cursor: pointer;
     display: none;
 }
+
 
 /* DROP_MENU */
 

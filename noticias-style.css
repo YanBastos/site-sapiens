@@ -33,6 +33,55 @@ nav a {
     width: 100%;
 }
 
+/* NOTICIAS NICHOS */
+
+
+.nch {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.nch h2 {
+    color: #fff;
+    text-align: center;
+    margin: auto;
+}
+
+.adv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    max-width: 400px;
+    width: 100%;
+    height: 200px;
+    background-color: #22262F;
+    background-image: url(https://www.projuris.com.br/wp-content/uploads/2021/10/pilares-da-advocacia.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.per {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    max-width: 400px;
+    width: 100%;
+    height: 200px;
+    background-color: #22262F;
+    background-image: url(https://www.carboneraetomazini.com.br/wp-content/uploads/2021/03/O-que-e-a-Pericia-Medica_-Descubra-como-funciona.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* FEED  */
 
 .feed-item {

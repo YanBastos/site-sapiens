@@ -107,10 +107,14 @@ main h3 {
 #tcw {
     width: 100%;
     padding: 20px;
-    color: #fff;
-    background: linear-gradient(45deg, #3B4552, #B53000, #3B4552, #17b250);
+    color: #000;
+    background: #e8e8e8;
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
+}
+
+#tcw h2{
+    color: #000;
 }
 
 @keyframes gradient {
