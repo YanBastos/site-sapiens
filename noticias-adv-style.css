@@ -11,6 +11,11 @@ html {
     scroll-behavior: smooth;
 }
 
+section h2 {
+    margin: 10px;
+    text-align: center;
+}
+
 /* NAV */
 
 nav {
@@ -32,6 +37,7 @@ nav a {
     max-width: 150px;
     width: 100%;
 }
+
 /* FEED  */
 
 .feed-item {
@@ -52,6 +58,7 @@ nav a {
     margin: auto;
     justify-content: center;
 }
+
 /* FOOTER */
 
 

@@ -42,13 +42,21 @@ nav a {
     justify-content: space-around;
     align-items: center;
     padding: 20px;
+    height: 50vh;
 }
 
 .nch h2 {
     color: #fff;
     text-align: center;
     margin: auto;
+    width: 100%;
+    height: 100%;
 }
+
+.adv:hover, .per:hover{
+
+}
+
 
 .adv {
     display: flex;
@@ -210,6 +218,10 @@ h3 {
 
     .atend {
         margin: 10px;
+    }
+
+    .nch {
+        height: 100vh;
     }
 
 }
