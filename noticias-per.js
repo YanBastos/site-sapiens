@@ -1,6 +1,6 @@
 // URL do feed RSS
 
-const feedUrl = "https://rss.app/feeds/Ggp9pj0bvBgbvJfC.xml"
+const feedUrl = "https://rss.app/feeds/QnkyhzQ1QZelLFYy.xml"
 
 // Elemento onde o fed vai ficar
 const feedContainer = document.getElementById("feed");
