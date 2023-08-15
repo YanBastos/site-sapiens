@@ -33,6 +33,14 @@ nav a {
     width: 100%;
 }
 
+/* NOTICIAS */
+
+
+div h2 {
+    text-align: center;
+    margin: 20px;
+}
+
 /* NOTICIAS NICHOS */
 
 .nch {
@@ -56,8 +64,8 @@ nav a {
 
 .adv:hover,
 .per:hover {
-    transition: 1s;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.488) 0%, rgb(255, 255, 255) 100%);
+    transition: 1.5s;
+    background: linear-gradient(180deg, #00000027 , #ffffff4f );
 }
 
 
