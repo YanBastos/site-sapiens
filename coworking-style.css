@@ -168,7 +168,7 @@ main h3 {
     color: #fff;
     width: 100%;
     padding: 10px;
-    background: url(/assets/memphis-blue-background-with-halftone-line-elements/SL-043021-42650-28.jpg);
+    background: url(https://img.freepik.com/free-vector/stylish-hexagonal-line-pattern-background_1017-19742.jpg?w=1480&t=st=1692214799~exp=1692215399~hmac=6a58ea5bcc38f7fd20cc86f2b42674c8ef5d423c305b2ae5a5f3afe2710511ce);
     background-attachment: local;
     background-position: center;
     background-repeat: no-repeat;
@@ -197,7 +197,7 @@ main h3 {
     margin: 15px;
     padding: 20px;
     background-color: #000000b9;
-    border: solid #fff;
+    border: solid #000;
 }
 
 hr {
@@ -214,7 +214,7 @@ hr {
     padding: 20px;
     background-color: #ffffffb9;
     color: #000;
-    border: solid #fff;
+    border: solid #000;
 }
 
 .prices-cards-white h3 {
@@ -261,6 +261,11 @@ hr {
     width: 100%;
     padding: 10px;
     background-color: #e2e2e2;
+    background: url(https://img.freepik.com/free-vector/stylish-hexagonal-line-pattern-background_1017-19742.jpg?w=1480&t=st=1692214799~exp=1692215399~hmac=6a58ea5bcc38f7fd20cc86f2b42674c8ef5d423c305b2ae5a5f3afe2710511ce);
+    background-attachment: local;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: block;
 }
 
@@ -284,22 +289,21 @@ hr {
     margin: auto;
     display: flex;
     /* flex-wrap:  nowrap; */
-    overflow-x: scroll;
+    overflow-x: hidden;
     cursor: grab;
     align-items: center;
     height: 500px;
 }
 
 .escs {
-    width: 300px;
     height: 200px;
     text-align: center;
-    padding: 20px;
+    padding: 30px;
     margin: 15px;
-    background-color: #fff;
-
-    border: solid #000000b9;
-}
+    background-color: #000000b9;
+    color: #fff;
+    border: solid #000;
+    }
 
 /* CLIENTS */
 
