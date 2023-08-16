@@ -113,7 +113,7 @@ main h3 {
     animation: gradient 15s ease infinite;
 }
 
-#tcw h2{
+#tcw h2 {
     color: #000;
 }
 
@@ -148,12 +148,13 @@ main h3 {
 
 .more-photos {
     padding: 10px;
-    height: 100px;  
+    height: 100px;
     background-color: #e2e2e2;
     border-radius: 50px;
     color: #000000;
     text-decoration: none;
 }
+
 .more-photos:hover {
     background-color: #17b250;
     border: none;
@@ -251,6 +252,53 @@ hr {
     padding: 15px;
     border-radius: 30px;
     background-color: #000000b9;
+}
+
+/* ESCRITÓRIOS */
+
+#escr {
+    color: #000;
+    width: 100%;
+    padding: 10px;
+    background-color: #e2e2e2;
+    display: block;
+}
+
+.escr-container {
+    display: flex;
+}
+
+.illus {
+    width: 100%;
+    text-align: center;
+}
+
+.illus img {
+    max-width: 600px;
+    width: 100%;
+    margin: 30px;
+}
+
+.escr-cards {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    /* flex-wrap:  nowrap; */
+    overflow-x: scroll;
+    cursor: grab;
+    align-items: center;
+    height: 500px;
+}
+
+.escs {
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    padding: 20px;
+    margin: 15px;
+    background-color: #fff;
+
+    border: solid #000000b9;
 }
 
 /* CLIENTS */
