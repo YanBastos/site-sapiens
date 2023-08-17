@@ -6,7 +6,7 @@ const feedUrl = "https://rss.app/feeds/Ggp9pj0bvBgbvJfC.xml"
 const feedContainer = document.getElementById("feed");
 
 // Requisição ao feed RSS utilizando Fetch API
-//fornece uma interface JS para acessar e manipular partes do pipeline HTTP
+// Fornece uma interface JS para acessar e manipular partes do pipeline HTTP
 
 fetch(feedUrl)
     .then(response => response.text())

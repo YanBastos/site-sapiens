@@ -164,6 +164,10 @@ main h3 {
 
 /* PRICES */
 
+#prices .headline {
+    color: #000;
+}
+
 #prices {
     color: #fff;
     width: 100%;
@@ -180,7 +184,7 @@ main h3 {
     margin: auto;
     display: flex;
     flex-wrap: nowrap;
-    overflow-x: scroll;
+    overflow-x: hidden;
     cursor: grab;
 }
 
@@ -259,6 +263,7 @@ hr {
 #escr {
     color: #000;
     width: 100%;
+    margin-top: -10.1px;
     padding: 10px;
     background-color: #e2e2e2;
     background: url(https://img.freepik.com/free-vector/stylish-hexagonal-line-pattern-background_1017-19742.jpg?w=1480&t=st=1692214799~exp=1692215399~hmac=6a58ea5bcc38f7fd20cc86f2b42674c8ef5d423c305b2ae5a5f3afe2710511ce);
@@ -292,7 +297,14 @@ hr {
     overflow-x: hidden;
     cursor: grab;
     align-items: center;
-    height: 500px;
+}
+
+.escr-cards h3 {
+    width: 100%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #002e75;
 }
 
 .escs {
