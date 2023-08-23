@@ -171,18 +171,26 @@ header {
 .card h3 {
     margin-bottom: 10px;
 }
+
 .card p {
     padding: 15px;
 }
 
-.card img{
+.card img {
     max-width: 200px;
+}
+
+.card a {
+    color: #fff;
+    border-radius: 30px;
+    background: #B53000;
+    padding: 10px;
 }
 
 .card {
     max-width: 350px;
     width: 100%;
-    height: 300px;
+    height: 400px;
     padding: 20px;
     margin: 15px;
     background-color: #fff;
