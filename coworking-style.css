@@ -266,12 +266,12 @@ hr {
     margin-top: -10.1px;
     padding: 10px;
     background-color: #e2e2e2;
-    background: url(https://img.freepik.com/free-vector/stylish-hexagonal-line-pattern-background_1017-19742.jpg?w=1480&t=st=1692214799~exp=1692215399~hmac=6a58ea5bcc38f7fd20cc86f2b42674c8ef5d423c305b2ae5a5f3afe2710511ce);
+    /* background: url(https://img.freepik.com/free-vector/stylish-hexagonal-line-pattern-background_1017-19742.jpg?w=1480&t=st=1692214799~exp=1692215399~hmac=6a58ea5bcc38f7fd20cc86f2b42674c8ef5d423c305b2ae5a5f3afe2710511ce);
     background-attachment: local;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    display: block;
+    display: block; */
 }
 
 .escr-container {
@@ -302,13 +302,11 @@ hr {
 }
 
 .escr-cards {
-    width: 90%;
+    width: 100%;
     margin: auto;
+    justify-content: center;
     display: flex;
-    /* flex-wrap:  nowrap; */
-    overflow-x: hidden;
-    cursor: grab;
-    align-items: center;
+    flex-wrap: wrap;
 }
 
 .escr-cards h3 {
