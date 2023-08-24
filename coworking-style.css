@@ -261,7 +261,7 @@ hr {
 /* ESCRITÓRIOS */
 
 #escr {
-    color: #000;
+    color: #fff;
     width: 100%;
     margin-top: -10.1px;
     padding: 10px;
@@ -287,6 +287,18 @@ hr {
     max-width: 600px;
     width: 100%;
     margin: 30px;
+}
+
+.escr-cards .prices-cards h3 {
+    width: 50%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #002e75;
+}
+
+.escr-cards hr {
+    margin: 0 auto;
 }
 
 .escr-cards {
