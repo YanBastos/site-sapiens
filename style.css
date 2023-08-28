@@ -120,7 +120,7 @@ header {
     display: flex;
     flex-direction: row;
     padding: 20px;
-    background-image: url(/assets/faixada.jpg);
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/sapiens-e9c8b.appspot.com/o/faixada.jpg?alt=media&token=c4ad13f2-3af9-464a-bf74-9f846a62a014);
     min-height: 500px;
     width: 100%;
     background-attachment: fixed;
