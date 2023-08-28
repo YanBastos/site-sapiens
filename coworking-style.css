@@ -276,6 +276,7 @@ hr {
 
 .escr-container {
     display: flex;
+    flex-wrap: nowrap;
 }
 
 .illus {
@@ -286,7 +287,7 @@ hr {
 .illus img {
     max-width: 600px;
     width: 100%;
-    margin: 30px;
+    margin: auto;
 }
 
 .escr-cards .prices-cards h3 {
@@ -426,6 +427,10 @@ footer {
         margin-top: 10px;
     }
 
+    .escr-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
 
     /* MAIN */
 
