@@ -184,7 +184,7 @@ main h3 {
     margin: auto;
     display: flex;
     flex-wrap: nowrap;
-    overflow-x: hidden;
+    overflow-x:scroll;
     cursor: grab;
 }
 
@@ -512,6 +512,10 @@ footer {
 
     .atend {
         margin: 10px;
+    }
+
+    .cw-text{
+        width: 100%;
     }
 
 }
